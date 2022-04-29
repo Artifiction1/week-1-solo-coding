@@ -5,9 +5,10 @@
     <title>Agris Engelis</title>
 
     <style>
+        body {background-image: linear-gradient(to right, green , blue);position:relative; font-family:cursive;}
 h1 {text-align: center;}
 
-.icon {margin: 10px; height: auto; width: 50px; border-radius: 50%; background-color: black; color: white; font-size: 25pt;}
+.icon {margin: 10px; padding: 5px; height: auto; width: 50px; border-radius: 50%; background-color: black; color: white; font-size: 25pt;}
 #work {position:absolute;
     right: 30px; top: 300px;}
     #school {position: absolute;
@@ -26,7 +27,7 @@ h1 {text-align: center;}
   #one:hover #work_one{display:inline; height:300px; width:300px;}
   #two:hover #work_two {display:inline; height:300px; width:300px;}
   #three:hover #work_three {display:inline; height:300px; width:300px;}
-  body {background-image: linear-gradient(to right, green , blue);position:relative;}
+  
   #picture {text-align: center;}
   #personal {text-align:center;}
   #me {text-align: center; margin-left: 37%; width: 500px;}
@@ -36,10 +37,11 @@ h1 {text-align: center;}
 color: linear-gradient(to left, red , white);}
   #change1 {user-select: none; position: fixed; top: 10px; left: 10px;}
   #change1:hover #background-1{opacity: 1;}
-  #hower {position: absolute; top: 500px; left: 500px;}
+  #hower {position: absolute; top: 500px; left: 500px; user-select: none;}
   #fly {transform: translateX(1500px);}
-  #hower:hover #fly {transform: translateX(-600px);
-transition: 6s;}
+  #hower:hover #fly {transform: translate(-800px);
+    transform: translateY(+500px);
+    transition: 8s;}
   </style>
 
 </head>
