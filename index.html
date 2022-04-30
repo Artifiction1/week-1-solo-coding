@@ -19,17 +19,17 @@ h1 {text-align: center;}
     span{color:lime;}
 #RTDP {display: none;}
   #first {display: none;}
-  #RTU {display: none;}
+  #RTU {display: none; position: absolute;}
   #work_one {display: none;}
   #work_two {display: none;}
   #work_three {display: none;}
   p {width: 300px; color: azure;}
-  #newschool:hover #first {display:inline; height:300px; width:300px;}
-  #junior:hover #RTDP {display:inline; size-adjust:initial ; height:300px; width:300px;}
-  #uni:hover #RTU {display:block}
-  #one:hover #work_one{display:inline; height:300px; width:300px;}
-  #two:hover #work_two {display:inline; height:300px; width:300px;}
-  #three:hover #work_three {display:inline; height:300px; width:300px;}
+  #newschool:hover #first {display:inline; height:300px; width:300px; position: absolute; top:0px; right:-500px; left: 200px; bottom: 0;}
+  #junior:hover #RTDP {display:inline; size-adjust:initial ; height:300px; width:300px; position: absolute; top:0px; right:-500px; left: +200px; bottom: 0;}
+  #uni:hover #RTU {display:block; position: absolute; top: 0; right:-500px; left: 200px; bottom: 0;}
+  #one:hover #work_one{display:inline; height:300px; width:300px; position: absolute; top: 0; left:-500px; right: 0; bottom: 0;}
+  #two:hover #work_two {display:inline; height:300px; width:300px; position: absolute; top: 0; left:-500px; right: 0; bottom: 0;}
+  #three:hover #work_three {display:inline; height:300px; width:300px; position: absolute; top: 0; left:-500px; right: 0; bottom: 0;}
     #picture {text-align: center;}
   #personal {text-align:center;}
   #me {text-align: center; margin-left: 37%; width: 500px;}
@@ -51,6 +51,7 @@ color: linear-gradient(to left, red , white);}
 </head>
 
 <body>
+    
     
     <div><H1>Agris Engelis</H1></div>
     
@@ -80,6 +81,7 @@ color: linear-gradient(to left, red , white);}
 
     <div id="RTU"><img src="RTU.jpg" height="300" width="500"> <p>I attended This university for a year and gained some basic programming knowledge</p></div> 
     </div>
+    
     <!-- school 3-->
 </div>
     <div id="work">
